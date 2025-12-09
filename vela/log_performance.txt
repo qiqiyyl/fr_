@@ -1,0 +1,41 @@
+
+Network summary for freeze
+Accelerator configuration                Ethos_U55_64
+System configuration                       My_Sys_Cfg
+Memory mode                        My_Mem_Mode_Parent
+Accelerator clock                                 400 MHz
+Design peak SRAM bandwidth                       3.20 GB/s
+Design peak Off-chip Flash bandwidth             0.05 GB/s
+
+Total SRAM used                                599.84 KiB
+Total Off-chip Flash used                     1007.69 KiB
+
+CPU operators = 0 (0.0%)
+NPU operators = 62 (100.0%)
+
+Average SRAM bandwidth                           0.83 GB/s
+Input   SRAM bandwidth                           8.30 MB/batch
+Weight  SRAM bandwidth                           9.84 MB/batch
+Output  SRAM bandwidth                           3.74 MB/batch
+Total   SRAM bandwidth                          21.97 MB/batch
+Total   SRAM bandwidth            per input     21.97 MB/inference (batch size 1)
+
+Average Off-chip Flash bandwidth                 0.03 GB/s
+Input   Off-chip Flash bandwidth                 0.00 MB/batch
+Weight  Off-chip Flash bandwidth                 0.92 MB/batch
+Output  Off-chip Flash bandwidth                 0.00 MB/batch
+Total   Off-chip Flash bandwidth                 0.93 MB/batch
+Total   Off-chip Flash bandwidth  per input      0.93 MB/inference (batch size 1)
+
+Neural network macs                         227520640 MACs/batch
+Network Tops/s                                   0.02 Tops/s
+
+NPU cycles                                   10457267 cycles/batch
+SRAM Access cycles                            1517468 cycles/batch
+DRAM Access cycles                                  0 cycles/batch
+On-chip Flash Access cycles                         0 cycles/batch
+Off-chip Flash Access cycles                   137984 cycles/batch
+Total cycles                                 10592593 cycles/batch
+
+Batch Inference time                26.48 ms,   37.76 inferences/s (batch size 1)
+

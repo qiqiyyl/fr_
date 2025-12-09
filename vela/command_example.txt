@@ -1,0 +1,5 @@
+vela --accelerator-config ethos-u55-64 --config himax_vela.ini --system-config My_Sys_Cfg --memory-mode My_Mem_Mode_Parent --optimise Performance freeze.tflite > log_performance.txt
+
+vela --accelerator-config ethos-u55-64 --config himax_vela.ini --system-config My_Sys_Cfg --memory-mode My_Mem_Mode_Parent --optimise Size freeze.tflite > log_size.txt
+
+vela --accelerator-config ethos-u55-64 --config himax_vela.ini --system-config My_Sys_Cfg --memory-mode My_Mem_Mode_Parent --optimise Performance --arena-cache-size 176128 freeze.tflite > log.txt
